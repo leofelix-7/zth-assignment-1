@@ -1,0 +1,55 @@
+/* Universal Selector Values */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+/* Root Variables */
+:root {
+    --main-color: rgb(211, 98, 63);
+    --secondary-black: rgb(43, 43, 43);
+}
+
+/* Header Style & Configuration */
+.header {
+
+    /* Header Linear Gradient */
+    background: #D3623F;
+    background: linear-gradient(90deg, rgb(226, 92, 74) 0%, rgba(255, 163, 15, 1) 100%);
+    
+    /* Proportion & Alignments */
+    padding: 1.5rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    /* Position & Arrangements */
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+/* Header's Logo Styles & Configuration 🥲 */
+.header .logo .icon {
+
+    /* Can't make color breaktrough so I choose this ;) */
+    color: var(--main-color);
+
+    /* Icon size ---- blah */
+    font-size: 1.5rem;
+
+    /* Background Color & Proportion */
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .7rem;
+    border-radius: 50px;
+
+    /* Alignment */
+    align-items: center;
+    text-align: center;
+}
