@@ -1,14 +1,19 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Universal Selector Values */
 * {
     padding: 0;
     margin: 0;
     outline: 0;
     border: 0;
+    text-decoration: none;
 }
 
 /* Root Variables */
 :root {
     --main-color: rgb(211, 98, 63);
+    --main-color-dark: rgb(104, 50, 34);
     --secondary-black: rgb(43, 43, 43);
 }
 
@@ -21,7 +26,8 @@
     
     /* Proportion & Alignments */
     padding: 1.5rem;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
     top: 0;
     left: 0;
 
@@ -31,6 +37,15 @@
     display: flex;
     gap: 1rem;
     justify-content: space-between;
+}
+
+/* Header Logo Box Config */
+.header .logo {
+
+    /* Proper Alignment & Arrangement */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 /* Header's Logo Styles & Configuration 🥲 */
@@ -53,3 +68,47 @@
     align-items: center;
     text-align: center;
 }
+
+/* Header's Brand style */
+.header .logo .brand {
+
+    /* Font Configuration */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* Navigation Box Config */
+.header .navigation {
+
+    /* Display & Alignments */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navigation's links */
+    .header .navigation .links a {
+        
+        /* Styles & Fonts*/
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        /* Flow & Arrangements */
+        margin-left: 1.5rem;
+    }
+
+    .header .navigation .links .active {
+        
+        /* Unique Style Config */
+        background: white;
+        color: var(--main-color-dark);
+        padding: .5rem .8rem;
+        border-radius: 50px;
+    }
