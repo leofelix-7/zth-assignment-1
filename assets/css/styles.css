@@ -22,7 +22,7 @@
 
     /* Header Linear Gradient */
     background: #D3623F;
-    background: linear-gradient(90deg, rgb(226, 92, 74) 0%, rgba(255, 163, 15, 1) 100%);
+    background: linear-gradient(90deg, rgb(228, 100, 96) 0%, rgb(223, 133, 31) 100%);
     
     /* Proportion & Alignments */
     padding: 1.5rem;
@@ -48,26 +48,37 @@
     gap: 1rem;
 }
 
-/* Header's Logo Styles & Configuration 🥲 */
-.header .logo .icon {
+/* Header's Logo & animation 🥲 */
 
-    /* Can't make color breaktrough so I choose this ;) */
-    color: var(--main-color);
+    /* Logo */
+    .header .logo .icon {
 
-    /* Icon size ---- blah */
-    font-size: 1.5rem;
+        /* Can't make color breaktrough so I choose this ;) */
+        color: var(--main-color);
 
-    /* Background Color & Proportion */
-    background-color: white;
-    width: 1.5rem;
-    height: 1.5rem;
-    padding: .7rem;
-    border-radius: 50px;
+        /* Icon size ---- blah */
+        font-size: 1.5rem;
 
-    /* Alignment */
-    align-items: center;
-    text-align: center;
-}
+        /* Background Color & Proportion */
+        background-color: white;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: .7rem;
+        border-radius: 50px;
+
+        /* Alignment */
+        align-items: center;
+        text-align: center;
+
+        /* Flow */
+        transition: .3s;
+    }
+
+    /* hover animation, cuz i wanted :0 */
+    .header .logo .icon:hover{
+        padding: .8rem;
+        background-color: var(--main-color-dark);
+    }
 
 /* Header's Brand style */
 .header .logo .brand {
@@ -92,6 +103,8 @@
 }
 
 /* Navigation's links */
+
+    /* Link's Style */
     .header .navigation .links a {
         
         /* Styles & Fonts*/
@@ -99,16 +112,43 @@
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-style: normal;
+        font-size: 1.1rem;
+        border-bottom: rgba(255, 255, 255, 0) solid 1px;
 
         /* Flow & Arrangements */
-        margin-left: 1.5rem;
+        padding: .3rem;
+        margin-left: 1rem;
+
+        /* Animations */
+        transition: .15s;
     }
 
+    /* Active link's style */
     .header .navigation .links .active {
         
         /* Unique Style Config */
         background: white;
         color: var(--main-color-dark);
-        padding: .5rem .8rem;
         border-radius: 50px;
+        padding: .3rem 1rem;
+
+        /* Transition */
+        transition: .3s;
+    }
+
+    /* Link's hover effect */
+    .header .navigation .links a:hover{
+
+        /* Style */
+        border-bottom: rgb(255, 255, 255) solid 1px;
+ 
+    }
+
+    /* Active link's hover effect */
+    .header .navigation .links .active:hover {
+
+        /* Color Changes */
+        background-color: var(--main-color-dark);
+        color: white;
+        border-bottom: rgba(255, 255, 255, 0) solid 1px;
     }
