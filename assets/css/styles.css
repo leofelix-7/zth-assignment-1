@@ -14,6 +14,7 @@
 :root {
     --main-color: rgb(219, 111, 68);
     --main-color-dark: rgb(104, 50, 34);
+    --main-color-light:rgb(255, 156, 117);
     --secondary-black: rgb(43, 43, 43);
 }
 
@@ -377,6 +378,9 @@
             /* Color */
             color: var(--main-color);
 
+            /* Flow */
+            transition: .3s;
+
             /* Alignments & Size */
             text-align: center;
             font-size: 5rem;
@@ -415,6 +419,9 @@
                 /* Color */
                 color: var(--main-color);
 
+                /* Flow */
+                transition: .3s;
+
                 /* Alignments & Size */
                 text-align: center;
                 font-size: 5rem;
@@ -451,6 +458,9 @@
                 /* Color */
                 color: var(--main-color);
 
+                /* Flow */
+                transition: .3s;
+
                 /* Alignments & Size */
                 text-align: center;
                 font-size: 5rem;
@@ -479,6 +489,13 @@
                 /* Alignments & Proportion */
                 text-align: justify;
                 margin-top: 1rem;
+            }
+
+            /* Hover Animation */
+            .body .features .perksBox .items .one .icon:hover,
+            .body .features .perksBox .items .two .icon:hover,
+            .body .features .perksBox .items .three .icon:hover{
+                color: var(--main-color-light);
             }
 
 
@@ -575,6 +592,53 @@
         font-family: "Open Sans", sans-serif;
         color: white;
 
+    }
+
+/* Body testimonail-box configuration */
+.body .testimonial {
+    /* Alignment & Proportion */
+    padding: 5rem 6%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Body Testinomial conetent box xconfig */
+.body .testimonial .contentBox {
+    /* Alignments & Proportion */
+    align-items: center;
+    text-align: center;
+}
+
+/* Body testimonial quoteline config */
+    /* Quoteline Box */
+    .body .testimonial .quoteline {
+        align-items: center;
+        text-align: center;
+    }
+    /* Quote */
+    .body .testimonial .quoteline .fa-quote-left{
+        /* Font & Size */
+        font-size: 5rem;
+    }
+
+    /* Stars */
+    .body .testimonial .quoteline .fa-star{
+        /* Font & Size */
+        font-size: 2rem;
+    }
+
+/* Body testimonail content config */
+    /* Title */
+    .body .testimonial .title {
+        /* Font & Colours */
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3.5rem; 
+        color: var(--secondary-black);
+
+        /* Display & Proportion */
+        letter-spacing: 5px;
     }
 
 
