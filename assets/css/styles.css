@@ -480,3 +480,48 @@
                 text-align: justify;
                 margin-top: 1rem;
             }
+
+
+/* Body Services section box config */
+.body .services {
+    /* Color & Background */
+    background: #D3623F;
+    background: linear-gradient(90deg, rgb(228, 100, 96) 0%, rgb(223, 133, 31) 100%);
+
+    /* Display & Alignment */
+    padding: 2rem 6% 10rem 6%;
+}
+
+/* Body services heading-box config */
+.body .services .heading {
+    /* Display & Proportion */
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+/* Body services heading contentes config */
+    /* Title */
+    .body .services .heading .title {
+        /* Font & Size */
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3rem;
+
+        /* Proportion & Display */
+        width: 40rem;
+        margin-top: 1rem;
+        letter-spacing: 5px;
+        line-height: 3rem;
+    }
+
+    /* Paragraph */
+    .body .services .heading .paragraph {
+        /* Font & Color */
+        font-family: "Open Sans", sans-serif;
+        color: white;
+
+        /* Display & Proportion */
+        text-align: justify;
+    }
