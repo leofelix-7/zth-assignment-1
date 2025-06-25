@@ -246,7 +246,7 @@
         font-size: 2.7rem;
     }
 
-/* Body landing paragraph config */
+/* Body landing paragraph configURATIONNNNN */
 .body .landing .contentBox .paragraph {
     /* Proportion */
     margin: 2rem 0;
@@ -255,7 +255,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* Body landing image config */
+/* Body landing image config ? idk yes it is*/
 .body .landing .image {
     /* Size & Proportion */
     width: 600px;
@@ -289,3 +289,194 @@
         color: var(--main-color);
         border: var(--main-color) solid 2px;
     }
+
+/* BODY - FEATURES SECTION FEATURES SECTION OF BODY SECTION, idc 🥲
+ */
+
+ /* Body feature box config */
+.body .features {
+    /* Display & Proportion */
+    display: flex;
+}
+
+/* Body feature's contentbox config */
+.body .features .contentBox {
+    /* Alignment & Proportion */
+    padding: 2rem 6% 10rem 6%;
+
+    
+}
+
+/* Body feature's header & subheadings styles & config */
+
+    /* All config */
+    .body .features .contentBox .heading span {
+        /* Fonts */
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+
+        /* Spacing */
+        letter-spacing: 2.5px;
+        line-height: 4rem;
+    }
+
+    /* 1ST CONFIG */
+    .body .features .contentBox .heading .one {
+        /* Font & Size*/
+        font-size: 2rem;
+    }
+
+    /* 2st configigigig */
+    .body .features .contentBox .heading .two {
+        /* Font Size & Color */
+        font-size: 5rem;
+        color: var(--main-color);
+    }
+
+    /* 3st confiiiiiiii*/
+    .body .features .contentBox .heading .three {
+        /* Font Size */
+        font-size: 2.7rem;
+    }
+
+/* Body feature paragraph configURATIONNNNN */
+.body .features .contentBox .paragraph {
+    /* Proportion */
+    margin: 2rem 0;
+
+    /* Font & Size */
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* Body features perks box config */
+.body .features .perksBox {
+    /* Alignment & Proportion */
+    margin: 2rem 6% 2rem 10%;
+
+    /* Display & Document Flow */
+    display: flex;
+}
+
+/* Body features perks {item-box} xconfig */
+.body .features .perksBox .items {
+    /* Display & Flow */
+    display: flex;
+    gap: 3rem;
+
+    /* Alignments */
+    align-content: center;
+}
+
+/* Body features perks items config */
+
+    /* First config */
+        /* Icon Config */
+        .body .features .perksBox .items .one .icon{
+            /* Color */
+            color: var(--main-color);
+
+            /* Alignments & Size */
+            text-align: center;
+            font-size: 5rem;
+        }
+
+        /* Title config */
+        .body .features .perksBox .items .one .title {
+            /* Font & Color */
+            color: var(--secondary-black);
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            
+            /* Alignments % Size*/
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 2.5rem;
+            line-height: 2.7rem;
+        }
+
+        /* Paragraph Config */
+        .body .features .perksBox .items .one .paragraph {
+            /* Font */
+            font-family: "Open Sans", sans-serif;
+
+            /* Alignments & Proportion */
+            text-align: justify;
+            margin-top: 1rem;
+        }
+
+    /* Second config */
+
+        /* First Item */
+            /* Icon Config */
+            .body .features .perksBox .items .two .icon{
+                /* Color */
+                color: var(--main-color);
+
+                /* Alignments & Size */
+                text-align: center;
+                font-size: 5rem;
+            }
+
+            /* Title config */
+            .body .features .perksBox .items .two .title {
+                /* Font & Color */
+                color: var(--secondary-black);
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                
+                /* Alignments % Size*/
+                margin-top: 1rem;
+                text-align: center;
+                font-size: 2.5rem;
+                line-height: 2.7rem;
+            }
+
+            /* Paragraph Config */
+            .body .features .perksBox .items .two .paragraph {
+                /* Font */
+                font-family: "Open Sans", sans-serif;
+
+                /* Alignments & Proportion */
+                text-align: justify;
+                margin-top: 1rem;
+            }
+
+        /* Third Item */
+            /* Icon Config */
+            .body .features .perksBox .items .three .icon{
+                /* Color */
+                color: var(--main-color);
+
+                /* Alignments & Size */
+                text-align: center;
+                font-size: 5rem;
+            }
+
+            /* Title config */
+            .body .features .perksBox .items .three .title {
+                /* Font & Color */
+                color: var(--secondary-black);
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                
+                /* Alignments % Size*/
+                margin-top: 1rem;
+                text-align: center;
+                font-size: 2.5rem;
+                line-height: 2.7rem;
+            }
+
+            /* Paragraph Config */
+            .body .features .perksBox .items .three .paragraph {
+                /* Font */
+                font-family: "Open Sans", sans-serif;
+
+                /* Alignments & Proportion */
+                text-align: justify;
+                margin-top: 1rem;
+            }
