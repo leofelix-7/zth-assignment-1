@@ -12,7 +12,7 @@
 
 /* Root Variables */
 :root {
-    --main-color: rgb(211, 98, 63);
+    --main-color: rgb(219, 111, 68);
     --main-color-dark: rgb(104, 50, 34);
     --secondary-black: rgb(43, 43, 43);
 }
@@ -32,14 +32,13 @@
     background: linear-gradient(90deg, rgb(228, 100, 96) 0%, rgb(223, 133, 31) 100%);
     
     /* Proportion & Alignments */
-    padding: 1.5rem;
+    padding: 1.5rem 6%;
     width: -webkit-fill-available;
     top: 0;
     left: 0;
 
     /* Position & Arrangements */
     position: fixed;
-    z-index: 100;
     display: flex;
     gap: 1rem;
     justify-content: space-between;
@@ -197,5 +196,96 @@
 /* Body Section Configuration */
 .body {
     /* Display & Proportion */
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
+
+/* Body's landing box config */
+.body .landing {
+    /* Display & Document flowwwwwww */
+    display: flex;
+}
+
+/* Body landing's contentbox config */
+.body .landing .contentBox {
+    /* Alignment & Proportion */
+    padding: 10rem 6%;
+
+    
+}
+
+/* Body landing's header & subheadings styles & config */
+
+    /* All config */
+    .body .landing .contentBox .heading span {
+        /* Fonts */
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+
+        /* Spacing */
+        letter-spacing: 2.5px;
+        line-height: 4rem;
+    }
+
+    /* 1ST CONFIG */
+    .body .landing .contentBox .heading .one {
+        /* Font & Size*/
+        font-size: 2rem;
+    }
+
+    /* 2st configigigig */
+    .body .landing .contentBox .heading .two {
+        /* Font Size & Color */
+        font-size: 5rem;
+        color: var(--main-color);
+    }
+
+    /* 3st confiiiiiiii*/
+    .body .landing .contentBox .heading .three {
+        /* Font Size */
+        font-size: 2.7rem;
+    }
+
+/* Body landing paragraph config */
+.body .landing .contentBox .paragraph {
+    /* Proportion */
+    margin: 2rem 0;
+
+    /* Font & Size */
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Body landing image config */
+.body .landing .image {
+    /* Size & Proportion */
+    width: 600px;
+    height: 600px;
+    margin: 2rem 6% 2rem 10%;
+}
+
+/* Body landing button config */
+    /* Config */
+    .body .landing .contentBox .button {
+        /* Proportion & Size */
+        padding: .3rem 1.5rem;
+        border-radius: 50px;
+
+        /* Font & Color */
+        font-family: "Poppins", sans-serif;
+        font-size: 1.4rem;
+        background-color: var(--main-color);
+        color: white;
+
+        /* Border */
+        border: rgba(255, 255, 255, 0) solid 2px;
+
+        /* Animation */
+        transition: .3s;
+    }
+
+    /* Hover effect */
+    .body .landing .contentBox .button:hover {
+        background-color: white;
+        color: var(--main-color);
+        border: var(--main-color) solid 2px;
+    }
