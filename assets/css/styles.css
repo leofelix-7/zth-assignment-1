@@ -14,7 +14,7 @@
 :root {
     --main-color: rgb(219, 111, 68);
     --main-color-dark: rgb(104, 50, 34);
-    --main-color-light:rgb(255, 156, 117);
+    --main-color-light: rgb(255, 156, 117);
     --secondary-black: rgb(43, 43, 43);
 }
 
@@ -31,7 +31,7 @@
     /* Header Linear Gradient */
     background: #D3623F;
     background: linear-gradient(90deg, rgb(228, 100, 96) 0%, rgb(223, 133, 31) 100%);
-    
+
     /* Proportion & Alignments */
     padding: 1.5rem 6%;
     width: -webkit-fill-available;
@@ -56,35 +56,35 @@
 
 /* Header's Logo & animation 🥲 */
 
-    /* Logo */
-    .header .logo .icon {
+/* Logo */
+.header .logo .icon {
 
-        /* Can't make color breaktrough so I choose this ;) */
-        color: var(--main-color);
+    /* Can't make color breaktrough so I choose this ;) */
+    color: var(--main-color);
 
-        /* Icon size ---- blah */
-        font-size: 1.5rem;
+    /* Icon size ---- blah */
+    font-size: 1.5rem;
 
-        /* Background Color & Proportion */
-        background-color: white;
-        width: 1.5rem;
-        height: 1.5rem;
-        padding: .7rem;
-        border-radius: 50px;
+    /* Background Color & Proportion */
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .7rem;
+    border-radius: 50px;
 
-        /* Alignment */
-        align-items: center;
-        text-align: center;
+    /* Alignment */
+    align-items: center;
+    text-align: center;
 
-        /* Flow */
-        transition: .3s;
-    }
+    /* Flow */
+    transition: .3s;
+}
 
-    /* hover animation, cuz i wanted :0 */
-    .header .logo .icon:hover{
-        padding: .8rem;
-        background-color: var(--main-color-dark);
-    }
+/* hover animation, cuz i wanted :0 */
+.header .logo .icon:hover {
+    padding: .8rem;
+    background-color: var(--main-color-dark);
+}
 
 /* Header's Brand style */
 .header .logo .brand {
@@ -110,77 +110,77 @@
 
 /* Navigation's links */
 
-    /* Link's Style */
-    .header .navigation .links a {
-        
-        /* Styles & Fonts*/
-        color: white;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 1.1rem;
-        border-bottom: rgba(255, 255, 255, 0) solid 1px;
+/* Link's Style */
+.header .navigation .links a {
 
-        /* Flow & Arrangements */
-        padding: .3rem;
-        margin-left: 1rem;
+    /* Styles & Fonts*/
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    border-bottom: rgba(255, 255, 255, 0) solid 1px;
 
-        /* Animations */
-        transition: .15s;
-    }
+    /* Flow & Arrangements */
+    padding: .3rem;
+    margin-left: 1rem;
 
-    /* Active link's style */
-    .header .navigation .links .active {
-        
-        /* Unique Style Config */
-        background: white;
-        color: var(--main-color-dark);
-        border-radius: 50px;
-        padding: .3rem 1.5rem;
+    /* Animations */
+    transition: .15s;
+}
 
-        /* Transition */
-        transition: .3s;
-    }
+/* Active link's style */
+.header .navigation .links .active {
 
-    /* Link's hover effect */
-    .header .navigation .links a:hover{
+    /* Unique Style Config */
+    background: white;
+    color: var(--main-color-dark);
+    border-radius: 50px;
+    padding: .3rem 1.5rem;
 
-        /* Style */
-        border-bottom: rgb(255, 255, 255) solid 1px;
- 
-    }
+    /* Transition */
+    transition: .3s;
+}
 
-    /* Active link's hover effect */
-    .header .navigation .links .active:hover {
+/* Link's hover effect */
+.header .navigation .links a:hover {
 
-        /* Color Changes */
-        background-color: var(--main-color-dark);
-        color: white;
-        border-bottom: rgba(255, 255, 255, 0) solid 1px;
-    }
+    /* Style */
+    border-bottom: rgb(255, 255, 255) solid 1px;
+
+}
+
+/* Active link's hover effect */
+.header .navigation .links .active:hover {
+
+    /* Color Changes */
+    background-color: var(--main-color-dark);
+    color: white;
+    border-bottom: rgba(255, 255, 255, 0) solid 1px;
+}
 
 
 /* Header's Search button */
 
-    /* Style */
-    .header .navigation .search {
+/* Style */
+.header .navigation .search {
 
-        /* Unique Style Config */
-        font-family: "Poppins", sans-serif;
-        background: white;
-        color: var(--main-color-dark);
-        border-radius: 50px;
-        padding: .3rem 1.5rem;
-
-        /* Transition */
-        transition: .3s;
-    }
+    /* Unique Style Config */
+    font-family: "Poppins", sans-serif;
+    background: white;
+    color: var(--main-color-dark);
+    border-radius: 50px;
+    padding: .3rem 1.5rem;
 
     /* Transition */
-    .header .navigation .search:hover {
-        background-color: var(--main-color-dark);
-        color: white;
-    }
+    transition: .3s;
+}
+
+/* Transition */
+.header .navigation .search:hover {
+    background-color: var(--main-color-dark);
+    color: white;
+}
 
 
 
@@ -211,41 +211,41 @@
     /* Alignment & Proportion */
     padding: 10rem 6%;
 
-    
+
 }
 
 /* Body landing's header & subheadings styles & config */
 
-    /* All config */
-    .body .landing .contentBox .heading span {
-        /* Fonts */
-        font-family: "Poppins", sans-serif;
-        font-weight: bold;
-        font-style: normal;
+/* All config */
+.body .landing .contentBox .heading span {
+    /* Fonts */
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
 
-        /* Spacing */
-        letter-spacing: 2.5px;
-        line-height: 4rem;
-    }
+    /* Spacing */
+    letter-spacing: 2.5px;
+    line-height: 4rem;
+}
 
-    /* 1ST CONFIG */
-    .body .landing .contentBox .heading .one {
-        /* Font & Size*/
-        font-size: 2rem;
-    }
+/* 1ST CONFIG */
+.body .landing .contentBox .heading .one {
+    /* Font & Size*/
+    font-size: 2rem;
+}
 
-    /* 2st configigigig */
-    .body .landing .contentBox .heading .two {
-        /* Font Size & Color */
-        font-size: 5rem;
-        color: var(--main-color);
-    }
+/* 2st configigigig */
+.body .landing .contentBox .heading .two {
+    /* Font Size & Color */
+    font-size: 5rem;
+    color: var(--main-color);
+}
 
-    /* 3st confiiiiiiii*/
-    .body .landing .contentBox .heading .three {
-        /* Font Size */
-        font-size: 2.7rem;
-    }
+/* 3st confiiiiiiii*/
+.body .landing .contentBox .heading .three {
+    /* Font Size */
+    font-size: 2.7rem;
+}
 
 /* Body landing paragraph configURATIONNNNN */
 .body .landing .contentBox .paragraph {
@@ -265,36 +265,36 @@
 }
 
 /* Body landing button config */
-    /* Config */
-    .body .landing .contentBox .button {
-        /* Proportion & Size */
-        padding: .3rem 1.5rem;
-        border-radius: 50px;
+/* Config */
+.body .landing .contentBox .button {
+    /* Proportion & Size */
+    padding: .3rem 1.5rem;
+    border-radius: 50px;
 
-        /* Font & Color */
-        font-family: "Poppins", sans-serif;
-        font-size: 1.4rem;
-        background-color: var(--main-color);
-        color: white;
+    /* Font & Color */
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    background-color: var(--main-color);
+    color: white;
 
-        /* Border */
-        border: rgba(255, 255, 255, 0) solid 2px;
+    /* Border */
+    border: rgba(255, 255, 255, 0) solid 2px;
 
-        /* Animation */
-        transition: .3s;
-    }
+    /* Animation */
+    transition: .3s;
+}
 
-    /* Hover effect */
-    .body .landing .contentBox .button:hover {
-        background-color: white;
-        color: var(--main-color);
-        border: var(--main-color) solid 2px;
-    }
+/* Hover effect */
+.body .landing .contentBox .button:hover {
+    background-color: white;
+    color: var(--main-color);
+    border: var(--main-color) solid 2px;
+}
 
 /* BODY - FEATURES SECTION FEATURES SECTION OF BODY SECTION, idc 🥲
  */
 
- /* Body feature box config */
+/* Body feature box config */
 .body .features {
     /* Display & Proportion */
     display: flex;
@@ -305,41 +305,41 @@
     /* Alignment & Proportion */
     padding: 2rem 6% 10rem 6%;
 
-    
+
 }
 
 /* Body feature's header & subheadings styles & config */
 
-    /* All config */
-    .body .features .contentBox .heading span {
-        /* Fonts */
-        font-family: "Poppins", sans-serif;
-        font-weight: bold;
-        font-style: normal;
+/* All config */
+.body .features .contentBox .heading span {
+    /* Fonts */
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
 
-        /* Spacing */
-        letter-spacing: 2.5px;
-        line-height: 4rem;
-    }
+    /* Spacing */
+    letter-spacing: 2.5px;
+    line-height: 4rem;
+}
 
-    /* 1ST CONFIG */
-    .body .features .contentBox .heading .one {
-        /* Font & Size*/
-        font-size: 2rem;
-    }
+/* 1ST CONFIG */
+.body .features .contentBox .heading .one {
+    /* Font & Size*/
+    font-size: 2rem;
+}
 
-    /* 2st configigigig */
-    .body .features .contentBox .heading .two {
-        /* Font Size & Color */
-        font-size: 5rem;
-        color: var(--main-color);
-    }
+/* 2st configigigig */
+.body .features .contentBox .heading .two {
+    /* Font Size & Color */
+    font-size: 5rem;
+    color: var(--main-color);
+}
 
-    /* 3st confiiiiiiii*/
-    .body .features .contentBox .heading .three {
-        /* Font Size */
-        font-size: 2.7rem;
-    }
+/* 3st confiiiiiiii*/
+.body .features .contentBox .heading .three {
+    /* Font Size */
+    font-size: 2.7rem;
+}
 
 /* Body feature paragraph configURATIONNNNN */
 .body .features .contentBox .paragraph {
@@ -372,131 +372,131 @@
 
 /* Body features perks items config */
 
-    /* First config */
-        /* Icon Config */
-        .body .features .perksBox .items .one .icon{
-            /* Color */
-            color: var(--main-color);
+/* First config */
+/* Icon Config */
+.body .features .perksBox .items .one .icon {
+    /* Color */
+    color: var(--main-color);
 
-            /* Flow */
-            transition: .3s;
+    /* Flow */
+    transition: .3s;
 
-            /* Alignments & Size */
-            text-align: center;
-            font-size: 5rem;
-        }
+    /* Alignments & Size */
+    text-align: center;
+    font-size: 5rem;
+}
 
-        /* Title config */
-        .body .features .perksBox .items .one .title {
-            /* Font & Color */
-            color: var(--secondary-black);
-            font-family: "Poppins", sans-serif;
-            font-weight: 700;
-            font-style: normal;
-            
-            /* Alignments % Size*/
-            margin-top: 1rem;
-            text-align: center;
-            font-size: 2.5rem;
-            line-height: 2.7rem;
-        }
+/* Title config */
+.body .features .perksBox .items .one .title {
+    /* Font & Color */
+    color: var(--secondary-black);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
-        /* Paragraph Config */
-        .body .features .perksBox .items .one .paragraph {
-            /* Font */
-            font-family: "Open Sans", sans-serif;
+    /* Alignments % Size*/
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+}
 
-            /* Alignments & Proportion */
-            text-align: justify;
-            margin-top: 1rem;
-        }
+/* Paragraph Config */
+.body .features .perksBox .items .one .paragraph {
+    /* Font */
+    font-family: "Open Sans", sans-serif;
 
-    /* Second config */
+    /* Alignments & Proportion */
+    text-align: justify;
+    margin-top: 1rem;
+}
 
-        /* First Item */
-            /* Icon Config */
-            .body .features .perksBox .items .two .icon{
-                /* Color */
-                color: var(--main-color);
+/* Second config */
 
-                /* Flow */
-                transition: .3s;
+/* First Item */
+/* Icon Config */
+.body .features .perksBox .items .two .icon {
+    /* Color */
+    color: var(--main-color);
 
-                /* Alignments & Size */
-                text-align: center;
-                font-size: 5rem;
-            }
+    /* Flow */
+    transition: .3s;
 
-            /* Title config */
-            .body .features .perksBox .items .two .title {
-                /* Font & Color */
-                color: var(--secondary-black);
-                font-family: "Poppins", sans-serif;
-                font-weight: 700;
-                font-style: normal;
-                
-                /* Alignments % Size*/
-                margin-top: 1rem;
-                text-align: center;
-                font-size: 2.5rem;
-                line-height: 2.7rem;
-            }
+    /* Alignments & Size */
+    text-align: center;
+    font-size: 5rem;
+}
 
-            /* Paragraph Config */
-            .body .features .perksBox .items .two .paragraph {
-                /* Font */
-                font-family: "Open Sans", sans-serif;
+/* Title config */
+.body .features .perksBox .items .two .title {
+    /* Font & Color */
+    color: var(--secondary-black);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
-                /* Alignments & Proportion */
-                text-align: justify;
-                margin-top: 1rem;
-            }
+    /* Alignments % Size*/
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+}
 
-        /* Third Item */
-            /* Icon Config */
-            .body .features .perksBox .items .three .icon{
-                /* Color */
-                color: var(--main-color);
+/* Paragraph Config */
+.body .features .perksBox .items .two .paragraph {
+    /* Font */
+    font-family: "Open Sans", sans-serif;
 
-                /* Flow */
-                transition: .3s;
+    /* Alignments & Proportion */
+    text-align: justify;
+    margin-top: 1rem;
+}
 
-                /* Alignments & Size */
-                text-align: center;
-                font-size: 5rem;
-            }
+/* Third Item */
+/* Icon Config */
+.body .features .perksBox .items .three .icon {
+    /* Color */
+    color: var(--main-color);
 
-            /* Title config */
-            .body .features .perksBox .items .three .title {
-                /* Font & Color */
-                color: var(--secondary-black);
-                font-family: "Poppins", sans-serif;
-                font-weight: 700;
-                font-style: normal;
-                
-                /* Alignments % Size*/
-                margin-top: 1rem;
-                text-align: center;
-                font-size: 2.5rem;
-                line-height: 2.7rem;
-            }
+    /* Flow */
+    transition: .3s;
 
-            /* Paragraph Config */
-            .body .features .perksBox .items .three .paragraph {
-                /* Font */
-                font-family: "Open Sans", sans-serif;
+    /* Alignments & Size */
+    text-align: center;
+    font-size: 5rem;
+}
 
-                /* Alignments & Proportion */
-                text-align: justify;
-                margin-top: 1rem;
-            }
+/* Title config */
+.body .features .perksBox .items .three .title {
+    /* Font & Color */
+    color: var(--secondary-black);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
-            /* Hover Animation */
-            .body .features .perksBox .items .one .icon:hover,
-            .body .features .perksBox .items .two .icon:hover,
-            .body .features .perksBox .items .three .icon:hover{
-                color: var(--main-color-light);
-            }
+    /* Alignments % Size*/
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+}
+
+/* Paragraph Config */
+.body .features .perksBox .items .three .paragraph {
+    /* Font */
+    font-family: "Open Sans", sans-serif;
+
+    /* Alignments & Proportion */
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+/* Hover Animation */
+.body .features .perksBox .items .one .icon:hover,
+.body .features .perksBox .items .two .icon:hover,
+.body .features .perksBox .items .three .icon:hover {
+    color: var(--main-color-light);
+}
 
 
 /* Body Services section box config */
@@ -535,64 +535,64 @@
 }
 
 /* Body services heading contentes config */
-    /* Title */
-    .body .services .heading .title {
-        /* Font & Size */
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 3rem;
+/* Title */
+.body .services .heading .title {
+    /* Font & Size */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
 
-        /* Proportion & Display */
-        width: 40rem;
-        margin-top: 1rem;
-        letter-spacing: 5px;
-        line-height: 3rem;
-    }
+    /* Proportion & Display */
+    width: 40rem;
+    margin-top: 1rem;
+    letter-spacing: 5px;
+    line-height: 3rem;
+}
 
-    /* Paragraph */
-    .body .services .heading .paragraph {
-        /* Font & Color */
-        font-family: "Open Sans", sans-serif;
-        color: white;
+/* Paragraph */
+.body .services .heading .paragraph {
+    /* Font & Color */
+    font-family: "Open Sans", sans-serif;
+    color: white;
 
-        /* Display & Proportion */
-        text-align: justify;
-    }
+    /* Display & Proportion */
+    text-align: justify;
+}
 
 /* Body services body contents config */
-    /* Icon */
-    .body .services .columnBox .column .icon {
-        /* Font & Size */
-        font-size: 2.5rem;
+/* Icon */
+.body .services .columnBox .column .icon {
+    /* Font & Size */
+    font-size: 2.5rem;
 
-        /* Background & Colors */
-        color: white;
-        background-color: var(--secondary-black);
-        
-        /* Proportion & Size */
-        padding: 1.6rem 2.1rem;
-        border-radius: 50px;
-        margin-right: 2rem;
-    }
+    /* Background & Colors */
+    color: white;
+    background-color: var(--secondary-black);
 
-    /* Title */
-    .body .services .columnBox .column .title {
-        /* Font & Colours */
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 2rem; 
-        color: var(--secondary-black);
-    }
+    /* Proportion & Size */
+    padding: 1.6rem 2.1rem;
+    border-radius: 50px;
+    margin-right: 2rem;
+}
 
-    /* Description */
-    .body .services .columnBox .column .description {
-        /* Font% Colours */
-        font-family: "Open Sans", sans-serif;
-        color: white;
+/* Title */
+.body .services .columnBox .column .title {
+    /* Font & Colours */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--secondary-black);
+}
 
-    }
+/* Description */
+.body .services .columnBox .column .description {
+    /* Font% Colours */
+    font-family: "Open Sans", sans-serif;
+    color: white;
+
+}
 
 /* Body testimonail-box configuration */
 .body .testimonial {
@@ -616,78 +616,78 @@
 }
 
 /* Body testimonial quoteline config */
-    /* Quoteline Box */
-    .body .testimonial .quoteline {
-        align-items: center;
-        text-align: left;
-        color: var(--main-color);
-    }
+/* Quoteline Box */
+.body .testimonial .quoteline {
+    align-items: center;
+    text-align: left;
+    color: var(--main-color);
+}
 
-    /* Quote */
-    .body .testimonial .quoteline .fa-quote-left{
-        /* Font & Size */
-        font-size: 5rem;
+/* Quote */
+.body .testimonial .quoteline .fa-quote-left {
+    /* Font & Size */
+    font-size: 5rem;
 
-        /* Flow */
-        margin-right: 1rem;
-    }
+    /* Flow */
+    margin-right: 1rem;
+}
 
-    /* Stars */
-    .body .testimonial .quoteline .fa-star{
-        /* Font & Size */
-        font-size: 2rem;
-    }
+/* Stars */
+.body .testimonial .quoteline .fa-star {
+    /* Font & Size */
+    font-size: 2rem;
+}
 
 /* Body testimonail content config */
-    /* Title */
-    .body .testimonial .title {
-        /* Font & Colours */
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 3.5rem; 
-        color: var(--secondary-black);
+/* Title */
+.body .testimonial .title {
+    /* Font & Colours */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+    color: var(--secondary-black);
 
-        /* Display & Proportion */
-        letter-spacing: 5px;
-    }
+    /* Display & Proportion */
+    letter-spacing: 5px;
+}
 
-    /* Paragraph */
-    .body .testimonial .contentBox .paragraph {
-        /* Font & CColours */
-        font-family: "Poppins" , sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 1rem;
-        color: var(--secondary-black);
+/* Paragraph */
+.body .testimonial .contentBox .paragraph {
+    /* Font & CColours */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--secondary-black);
 
-        /* Flow */
-        margin-top: 2rem;
-        text-align: left;
-    }
+    /* Flow */
+    margin-top: 2rem;
+    text-align: left;
+}
 
-    /* Author */
-    .body .testimonial .contentBox .author {
-        /* Font & CColours */
-        font-family: "Poppins" , sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 1.5rem;
-        color: var(--main-color);   
+/* Author */
+.body .testimonial .contentBox .author {
+    /* Font & CColours */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--main-color);
 
-        /* Flow */
-        margin-top: 2rem;
-        text-align: left;
-    }
+    /* Flow */
+    margin-top: 2rem;
+    text-align: left;
+}
 
 /* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRR
  */
 
- /* Footer config */
+/* Footer config */
 .body .footer {
     /* Background */
     background-color: var(--secondary-black);
-    
+
     /* Display & Proportion */
     display: flex;
     padding: 2rem 7.5%;
@@ -777,9 +777,8 @@
     /* Font & Color */
     font-family: "Poppins", sans-serif;
     color: white;
-    font-size: .75rem; 
+    font-size: .75rem;
 
     /* Margin */
     margin-bottom: .7rem;
 }
-
