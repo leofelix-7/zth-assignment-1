@@ -694,13 +694,15 @@
     gap: 2rem;
 }
 
+/* Footer logobox config */
 .body .footer .logo {
     display: flex;
     align-items: center;
 }
 
+/* Footer logo icon config */
 .body .footer .logo .icon {
-    /* Can't make color breaktrough so I choose this ;) */
+    /* Ccolor*/
     color: var(--secondary-black);
 
     /* Icon size ---- blah */
@@ -722,43 +724,62 @@
     transition: .3s;
 }
 
+/* Footer logo icon font config */
 .body .footer .logo .brand {
     /* Font Configuration */
     font-family: "Open Sans", sans-serif;
     font-weight: 900;
     font-size: 1.2rem;
     color: white;
+
+    /* Spacing & Proportion */
     letter-spacing: 2px;
     line-height: 20px;
 }
 
+/* Footer paragraph */
 .body .footer .paragraph {
+    /* Font & Color */
     font-family: "Open Sans", sans-serif;
     font-size: .9rem;
     color: rgba(255, 255, 255, 0.637);
+
+    /* Alignment */
     align-items: center;
 }
 
+/* Footer intobox config */
 .body .footer .infoBox {
-    /*  */
+    /* Proper alignments */
+    align-items: center;
 }
 
+/* Footer infobox informations content */
 .body .footer .infoBox .info {
+    /* Display & alignment */
     display: flex;
     text-align: left;
 }
 
+/* Footer infobox  */
 .body .footer .infoBox .info .icon {
+    /* Font & Color */
     font-size: 1rem;
     color: var(--main-color);
 
+    /* Proper alignments */
     margin-right: 1rem;
 }
 
+/* Footer information contents */
 .body .footer .infoBox .info .content {
+
+    /* Font & Color */
     font-family: "Poppins", sans-serif;
     color: white;
     font-size: .75rem; 
+
+    /* Margin */
     margin-bottom: .7rem;
 }
 
