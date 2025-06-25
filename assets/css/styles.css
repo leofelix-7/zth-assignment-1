@@ -709,7 +709,7 @@
     font-size: 2.5rem;
 
     /* Background Color & Proportion */
-    background-color: var(--main-color);
+    background-color: var(--main-color-light);
     width: 2.5rem;
     height: 2.5rem;
     padding: .7rem;
