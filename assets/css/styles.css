@@ -17,6 +17,13 @@
     --secondary-black: rgb(43, 43, 43);
 }
 
+
+
+
+
+/* ===== HEADER ===== blahhhhhhh ===========================
+*/
+
 /* Header Style & Configuration */
 .header {
 
@@ -26,8 +33,7 @@
     
     /* Proportion & Alignments */
     padding: 1.5rem;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
+    width: -webkit-fill-available;
     top: 0;
     left: 0;
 
@@ -97,7 +103,7 @@
 
     /* Display & Alignments */
     display: flex;
-    gap: 1rem;
+    gap: 5rem;
     align-items: center;
     text-align: center;
 }
@@ -130,7 +136,7 @@
         background: white;
         color: var(--main-color-dark);
         border-radius: 50px;
-        padding: .3rem 1rem;
+        padding: .3rem 1.5rem;
 
         /* Transition */
         transition: .3s;
@@ -152,3 +158,44 @@
         color: white;
         border-bottom: rgba(255, 255, 255, 0) solid 1px;
     }
+
+
+/* Header's Search button */
+
+    /* Style */
+    .header .navigation .search {
+
+        /* Unique Style Config */
+        font-family: "Poppins", sans-serif;
+        background: white;
+        color: var(--main-color-dark);
+        border-radius: 50px;
+        padding: .3rem 1.5rem;
+
+        /* Transition */
+        transition: .3s;
+    }
+
+    /* Transition */
+    .header .navigation .search:hover {
+        background-color: var(--main-color-dark);
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+/* ===== body ===== blahhhhhhh ===========================
+*/
+
+/* Body Section Configuration */
+.body {
+    /* Display & Proportion */
+    margin-top: 5rem;
+}
