@@ -489,7 +489,7 @@
     background: linear-gradient(90deg, rgb(228, 100, 96) 0%, rgb(223, 133, 31) 100%);
 
     /* Display & Alignment */
-    padding: 2rem 6% 10rem 6%;
+    padding: 2rem 6% 2rem 6%;
 }
 
 /* Body services heading-box config */
@@ -498,6 +498,23 @@
     display: flex;
     gap: 2rem;
     align-items: center;
+}
+
+/* Body services columBOX - BOX configuration */
+.body .services .columnBox {
+    /* Flow */
+    display: flex;
+    gap: 2rem;
+}
+
+/* Body services colum configuration */
+.body .services .column {
+    /* Document Flow */
+    display: flex;
+
+    /* Alignments & Proportion */
+    align-items: center;
+    margin: 2rem 0;
 }
 
 /* Body services heading contentes config */
@@ -525,3 +542,40 @@
         /* Display & Proportion */
         text-align: justify;
     }
+
+/* Body services body contents config */
+    /* Icon */
+    .body .services .columnBox .column .icon {
+        /* Font & Size */
+        font-size: 2.5rem;
+
+        /* Background & Colors */
+        color: white;
+        background-color: var(--secondary-black);
+        
+        /* Proportion & Size */
+        padding: 1.6rem 2.1rem;
+        border-radius: 50px;
+        margin-right: 2rem;
+    }
+
+    /* Title */
+    .body .services .columnBox .column .title {
+        /* Font & Colours */
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2rem; 
+        color: var(--secondary-black);
+    }
+
+    /* Description */
+    .body .services .columnBox .column .description {
+        /* Font% Colours */
+        font-family: "Open Sans", sans-serif;
+        color: white;
+
+    }
+
+
+
