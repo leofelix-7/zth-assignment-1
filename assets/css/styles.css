@@ -597,7 +597,7 @@
 /* Body testimonail-box configuration */
 .body .testimonial {
     /* Alignment & Proportion */
-    padding: 5rem 6%;
+    padding: 5rem 7.5%;
     align-items: center;
     text-align: center;
 }
@@ -680,5 +680,85 @@
         text-align: left;
     }
 
+/* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRR
+ */
 
+ /* Footer config */
+.body .footer {
+    /* Background */
+    background-color: var(--secondary-black);
+    
+    /* Display & Proportion */
+    display: flex;
+    padding: 2rem 7.5%;
+    gap: 2rem;
+}
+
+.body .footer .logo {
+    display: flex;
+    align-items: center;
+}
+
+.body .footer .logo .icon {
+    /* Can't make color breaktrough so I choose this ;) */
+    color: var(--secondary-black);
+
+    /* Icon size ---- blah */
+    font-size: 2.5rem;
+
+    /* Background Color & Proportion */
+    background-color: var(--main-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .7rem;
+    border-radius: 50px;
+    margin-right: 1rem;
+
+    /* Alignment */
+    align-items: center;
+    text-align: center;
+
+    /* Flow */
+    transition: .3s;
+}
+
+.body .footer .logo .brand {
+    /* Font Configuration */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.body .footer .paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.637);
+    align-items: center;
+}
+
+.body .footer .infoBox {
+    /*  */
+}
+
+.body .footer .infoBox .info {
+    display: flex;
+    text-align: left;
+}
+
+.body .footer .infoBox .info .icon {
+    font-size: 1rem;
+    color: var(--main-color);
+
+    margin-right: 1rem;
+}
+
+.body .footer .infoBox .info .content {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: .75rem; 
+    margin-bottom: .7rem;
+}
 
