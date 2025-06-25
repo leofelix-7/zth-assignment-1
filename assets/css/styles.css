@@ -609,16 +609,27 @@
     text-align: center;
 }
 
+/* Body testimonial review box config */
+.body .testimonial .reviews {
+    display: flex;
+    gap: 1rem;
+}
+
 /* Body testimonial quoteline config */
     /* Quoteline Box */
     .body .testimonial .quoteline {
         align-items: center;
-        text-align: center;
+        text-align: left;
+        color: var(--main-color);
     }
+
     /* Quote */
     .body .testimonial .quoteline .fa-quote-left{
         /* Font & Size */
         font-size: 5rem;
+
+        /* Flow */
+        margin-right: 1rem;
     }
 
     /* Stars */
@@ -639,6 +650,34 @@
 
         /* Display & Proportion */
         letter-spacing: 5px;
+    }
+
+    /* Paragraph */
+    .body .testimonial .contentBox .paragraph {
+        /* Font & CColours */
+        font-family: "Poppins" , sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--secondary-black);
+
+        /* Flow */
+        margin-top: 2rem;
+        text-align: left;
+    }
+
+    /* Author */
+    .body .testimonial .contentBox .author {
+        /* Font & CColours */
+        font-family: "Poppins" , sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--main-color);   
+
+        /* Flow */
+        margin-top: 2rem;
+        text-align: left;
     }
 
 
